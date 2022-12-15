@@ -43,6 +43,7 @@ async function main() {
   const repos = await gh(`/users/${username}/repos?type=owner&sort=updated`);
   if (!repos?.length) return;
 
+  const [repo] = repos;
   const commits = await gh(`/repos/${repo.full_name}/commits?author=${username}`);
   commits.forEach(x => handle(x.commit.author.email));
 }

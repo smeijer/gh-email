@@ -1,6 +1,6 @@
 {
   "name": "gh-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "retrieve email address by github handle",
   "bin": "bin/gh-email.js",
   "main": "src/index.js",
