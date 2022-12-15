@@ -1,0 +1,26 @@
+{
+  "name": "gh-email",
+  "version": "1.0.0",
+  "description": "retrieve email address by github handle",
+  "bin": "bin/gh-email.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["bin", "src"],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smeijer/gh-email.git"
+  },
+  "keywords": [
+    "email",
+    "github",
+    "node"
+  ],
+  "author": "Stephan Meijer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smeijer/gh-email/issues"
+  },
+  "homepage": "https://github.com/smeijer/gh-email#readme"
+}
